@@ -1,0 +1,30 @@
+button {
+  appearance: none;
+}
+
+.button {
+  border-radius: 35px;
+  width: 250px;
+  padding: 25px;
+  border: 0;
+  font-size: $font-size-xs;
+  text-transform: uppercase;
+  font-family: $extrabold;
+  color: #fff;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+.button-dark {
+  background: $navy-blue;
+  &:hover {
+    background: darken($navy-blue, 5%);
+  }
+}
+
+.button-light {
+  background: $primary-light-blue;
+  &:hover {
+    background: darken($primary-light-blue, 5%);
+  }
+}

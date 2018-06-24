@@ -1,5 +1,5 @@
 if (__POLYFILL__) {
-  require(`core-js/fn/promise`)
+  require(`core-js/modules/es6.promise`)
 }
 import { apiRunner, apiRunnerAsync } from "./api-runner-browser"
 import React, { createElement } from "react"
@@ -61,14 +61,9 @@ apiRunnerAsync(`onClientEntry`).then(() => {
     if (redirect) {
       pathname = redirect.toPath
     }
-    const wl = window.location
 
-    // If we're already at this location, do nothing.
-    if (
-      wl.pathname === location.pathname &&
-      wl.search === location.search &&
-      wl.hash === location.hash
-    ) {
+    // If we're already at this path, do nothing.
+    if (window.location.pathname === pathname) {
       return
     }
 
@@ -137,9 +132,7 @@ apiRunnerAsync(`onClientEntry`).then(() => {
     }
 
     if (prevRouterProps) {
-      const {
-        location: { pathname: oldPathname },
-      } = prevRouterProps
+      const { location: { pathname: oldPathname } } = prevRouterProps
       if (oldPathname === pathname) {
         return false
       }
@@ -188,15 +181,8 @@ apiRunnerAsync(`onClientEntry`).then(() => {
       )
 
     const NewRoot = apiRunner(`wrapRootComponent`, { Root }, Root)[0]
-
-    const renderer = apiRunner(
-      `replaceHydrateFunction`,
-      undefined,
-      ReactDOM.render
-    )[0]
-
     domReady(() =>
-      renderer(
+      ReactDOM.render(
         <NewRoot />,
         typeof window !== `undefined`
           ? document.getElementById(`___gatsby`)

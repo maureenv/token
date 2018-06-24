@@ -1,0 +1,49 @@
+// <div className="hero">
+//   <div className="hero__inner">
+//     <img src={ fuckLogo } alt="Fuck token logo"/>
+//     <h1> Express yourself, give a <img src={ fuck } alt="fuck"/></h1>
+//     <div className="button-container">
+//       <button className="button-light"> Enter Fuckhub </button>
+//       <button className="button-dark"> Get Tokens</button>
+//     </div>
+//   </div>
+// </div>
+.hero {
+  background: $sky-blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.hero__inner {
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .hero-logo {
+    width: 200px;
+    margin-bottom: 50px;
+  }
+  h1 {
+    font-family: $semibold;
+    color: #fff;
+    font-size: $font-size-xl;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 180px;
+      padding-left: 15px;
+    }
+  }
+}
+
+.button-container {
+  margin-top: 40px;
+  button {
+    margin: 0 20px;
+  }
+}
