@@ -6,6 +6,7 @@ import Features from '../components/features'
 import chart from '../../images/stats.png'
 import coinIcon from '../../images/icon-coins.png'
 import customizable from '../../images/customizable.png'
+import bot from '../../images/botscreen.png'
 import discord from '../../images/discord.jpg'
 import fuck from '../../images/fuck.png'
 import fuckBlue from '../../images/fuck-blue.png'
@@ -60,7 +61,7 @@ const IndexPage = props => (
           </div>
         </div>
       </div>
-      <div className="section-container">
+      <div className="section-container gray-bg">
         <div className="features-container__inner">
           <h2 className="section-title"> Features </h2>
             <h3 className="section-subtitle"> Connect all of your social media accounts to one tipping wallet </h3>
@@ -119,6 +120,22 @@ const IndexPage = props => (
                 <p> Your wallet features free withdrawals from FuckHub.  Want to send your FUCKs to cold storage?  No problem, withdrawal couldn’t be easier. FUCKs safe. </p>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="section-container gray-bg">
+        <div className="section-title-container">
+          <h2 className="section-title"> Tipping bots </h2>
+          <h3 className="section-subtitle"> Tips from over 5 social media accounts. See the Tip-Bots in action. </h3>
+        </div>
+        <div className="two-column-container">
+          <div className="two-column-container__inner">
+            <img src={ bot } alt="bot"/>
+            <img src={ bot } alt="bot"/>
+            <img src={ bot } alt="bot"/>
+            <img src={ bot } alt="bot"/>
+            <img src={ bot } alt="bot"/>
+            <img src={ bot } alt="bot"/>
           </div>
         </div>
       </div>
