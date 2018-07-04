@@ -14,6 +14,9 @@ footer {
   justify-content: space-between;
   img {
     width: 100px;
+    @media screen and (max-width: 500px ) {
+      display: none;
+    }
   }
 }
 
@@ -42,5 +45,19 @@ footer {
   .bold-link {
     font-family: $bold;
     margin: 10px 0;
+  }
+  @media screen and (max-width: 500px ) {
+    padding: 0 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    > div {
+      padding-left: 0;
+    }
+    > div:first-child {
+      width: 45%;
+    }
+    > div:nth-child(2) {
+      width: 45%;
+    }
   }
 }

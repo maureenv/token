@@ -8,7 +8,7 @@
       "component": "/Users/maureenvogel/webprojects/token/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "updatedAt": 1530575592331,
+      "updatedAt": 1530669326162,
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
       "componentPath": "/Users/maureenvogel/webprojects/token/.cache/dev-404-page.js",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cf3ee710da8438abf283a893d900bd7d",
+        "contentDigest": "928b817c25ed7f8d76db20a10659498d",
         "owner": "internal-data-bridge"
       }
     },
@@ -758,12 +758,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-07-02T23:53:08.375Z",
+      "buildTime": "2018-07-04T01:55:23.059Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "aa1d5e527e4d2100a4389afa9328b55c",
+        "contentDigest": "9cbee4350d7129dc7eb8f7678c1ec8c7",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -773,7 +773,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "ea8f8bddea7e177a161c2248d4456ea1",
+        "contentDigest": "ffa57d796a784b1cf7fc8da73af4b653",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -784,7 +784,7 @@
       "size": 102,
       "prettySize": "102 B",
       "modifiedTime": "2018-06-24T00:13:33.000Z",
-      "accessTime": "2018-07-02T23:53:12.000Z",
+      "accessTime": "2018-07-04T01:55:25.000Z",
       "changeTime": "2018-06-24T00:19:50.000Z",
       "birthTime": "2018-06-24T00:13:33.000Z",
       "root": "/",
@@ -802,11 +802,11 @@
       "blksize": 4096,
       "ino": 32313243,
       "blocks": 0,
-      "atimeMs": 1530575592000,
+      "atimeMs": 1530669325000,
       "mtimeMs": 1529799213000,
       "ctimeMs": 1529799590000,
       "birthtimeMs": 1529799213000,
-      "atime": "2018-07-02T23:53:12.000Z",
+      "atime": "2018-07-04T01:55:25.000Z",
       "mtime": "2018-06-24T00:13:33.000Z",
       "ctime": "2018-06-24T00:19:50.000Z",
       "birthtime": "2018-06-24T00:13:33.000Z"
@@ -909,7 +909,7 @@
       "component": "/Users/maureenvogel/webprojects/token/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1530575592337,
+      "updatedAt": 1530669326168,
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/maureenvogel/webprojects/token/src/pages/index.js",
@@ -918,7 +918,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "596e5ed750884972007f502c985918e1",
+        "contentDigest": "60d408ef1546ba424d919c21414b1dcb",
         "owner": "internal-data-bridge"
       }
     }
