@@ -9,7 +9,6 @@ exports.components = {
 exports.json = {
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/maureenvogel/webprojects/token/.cache/json/layout-index.json"),
   "dev-404-page.json": require("gatsby-module-loader?name=path---dev-404-page!/Users/maureenvogel/webprojects/token/.cache/json/dev-404-page.json"),
-  "layout-index.json": require("gatsby-module-loader?name=path---!/Users/maureenvogel/webprojects/token/.cache/json/layout-index.json"),
   "index.json": require("gatsby-module-loader?name=path---index!/Users/maureenvogel/webprojects/token/.cache/json/index.json")
 }
 

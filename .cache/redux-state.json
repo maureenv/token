@@ -8,7 +8,6 @@
       "component": "/Users/maureenvogel/webprojects/token/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "updatedAt": 1530669326162,
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
       "componentPath": "/Users/maureenvogel/webprojects/token/.cache/dev-404-page.js",
@@ -17,7 +16,8 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "928b817c25ed7f8d76db20a10659498d",
+        "contentDigest": "02064b8eb9e9ba2135768f5b9e7f71a7",
+        "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
@@ -32,6 +32,8 @@
       "nodeAPIs": [
         "createPagesStatefully"
       ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
       "pluginFilepath": "/Users/maureenvogel/webprojects/token/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
@@ -49,44 +51,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "26a5e033a5108064f287d898a3ffdc8b",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "Plugin component-page-creator": {
-      "resolve": "/Users/maureenvogel/webprojects/token/node_modules/gatsby/dist/internal-plugins/component-page-creator",
-      "id": "Plugin component-page-creator",
-      "name": "component-page-creator",
-      "version": "1.0.0",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [
-        "createPagesStatefully"
-      ],
-      "pluginFilepath": "/Users/maureenvogel/webprojects/token/node_modules/gatsby/dist/internal-plugins/component-page-creator",
-      "packageJson": {
-        "name": "component-page-creator",
-        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
-        "version": "1.0.0",
-        "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin"
-        ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-        "license": "MIT",
-        "dependencies": [],
-        "devDependencies": [],
-        "peerDependencies": [],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "592d1ecd1b7aae6a67499f7726749933",
+        "contentDigest": "05017b3e5d20a3a3b3f60aad6e1fa066",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -102,6 +67,8 @@
       "nodeAPIs": [
         "createLayouts"
       ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
       "pluginFilepath": "/Users/maureenvogel/webprojects/token/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
       "packageJson": {
         "name": "component-layout-creator",
@@ -123,7 +90,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4e939d365bf5f7e50371220d9fe23c78",
+        "contentDigest": "57e9154fd7a8290f02900bbaabd9c14c",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -140,6 +107,8 @@
         "sourceNodes",
         "onCreatePage"
       ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
       "pluginFilepath": "/Users/maureenvogel/webprojects/token/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
@@ -157,7 +126,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b54e92b1da47fa1cf9b302111cb02ceb",
+        "contentDigest": "64e9a595710cb921527ddc2fec49c0ff",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -173,6 +142,8 @@
       "nodeAPIs": [
         "onCreatePage"
       ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
       "pluginFilepath": "/Users/maureenvogel/webprojects/token/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
@@ -190,7 +161,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "5dbeab96c0237a1bf14e18c03265cac8",
+        "contentDigest": "3991f3b0c2470b2b321ab4aa5c38d319",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -207,6 +178,8 @@
         "onCreatePage",
         "onCreateLayout"
       ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
       "pluginFilepath": "/Users/maureenvogel/webprojects/token/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
@@ -224,7 +197,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2cc84871fe45053bbda3461ceed0abbf",
+        "contentDigest": "aeac5199eca0eefc4fed2b2aa80c7d6b",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -233,26 +206,26 @@
       "resolve": "/Users/maureenvogel/webprojects/token/node_modules/gatsby-plugin-react-next",
       "id": "Plugin gatsby-plugin-react-next",
       "name": "gatsby-plugin-react-next",
-      "version": "1.0.8",
+      "version": "1.0.11",
       "pluginOptions": {
         "plugins": []
       },
       "nodeAPIs": [
         "modifyWebpackConfig"
       ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
       "pluginFilepath": "/Users/maureenvogel/webprojects/token/node_modules/gatsby-plugin-react-next",
       "packageJson": {
         "name": "gatsby-plugin-react-next",
         "description": "Use React 16 with your Gatsby v1 site",
-        "version": "1.0.8",
+        "version": "1.0.11",
         "main": "index.js",
         "keywords": [
-          "gatsby"
+          "gatsby",
+          "gatsby-plugin"
         ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -294,7 +267,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2e6d41a5e24e360751de0c68fa4f6dc8",
+        "contentDigest": "40b7bde1086c341d8c6f2fe5f600cad3",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -308,6 +281,10 @@
         "plugins": []
       },
       "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
       "pluginFilepath": "/Users/maureenvogel/webprojects/token/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
@@ -317,9 +294,7 @@
         "keywords": [
           "gatsby"
         ],
-        "author": {
-          "name": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;"
-        },
+        "author": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;",
         "license": "MIT",
         "dependencies": [
           {
@@ -348,7 +323,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "dd172204f53b26218b879ad9f82f0ef9",
+        "contentDigest": "db7f7d426f759aaac3174a24c89bb338",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -364,6 +339,8 @@
       "nodeAPIs": [
         "modifyWebpackConfig"
       ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
       "pluginFilepath": "/Users/maureenvogel/webprojects/token/plugins/svgo",
       "packageJson": {
         "dependencies": [],
@@ -375,7 +352,91 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0c9642590abbaf3919bcc0c538f337bc",
+        "contentDigest": "a0c6fc4306edbb0016baf5dccc985564",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-favicon": {
+      "resolve": "/Users/maureenvogel/webprojects/token/node_modules/gatsby-plugin-favicon",
+      "id": "Plugin gatsby-plugin-favicon",
+      "name": "gatsby-plugin-favicon",
+      "version": "2.1.1",
+      "pluginOptions": {
+        "plugins": [],
+        "logo": "./src/favicon.png",
+        "injectHTML": true,
+        "icons": {
+          "android": true,
+          "appleIcon": true,
+          "appleStartup": true,
+          "coast": false,
+          "favicons": true,
+          "firefox": true,
+          "twitter": false,
+          "yandex": false,
+          "windows": false
+        }
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/maureenvogel/webprojects/token/node_modules/gatsby-plugin-favicon",
+      "packageJson": {
+        "name": "gatsby-plugin-favicon",
+        "description": "Gatsby plugin to add favicon for all configurations",
+        "version": "2.1.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "favicon"
+        ],
+        "author": "Julien Blatecky <julien.blatecky@creatiwity.net>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "favicons-webpack-plugin",
+            "version": "0.0.7"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-preset-env",
+            "version": "^1.6.1"
+          },
+          {
+            "name": "babel-preset-react",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b423c5df83ad95feebf9080e55a0faa6",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -384,7 +445,7 @@
       "resolve": "/Users/maureenvogel/webprojects/token/node_modules/gatsby-plugin-postcss-sass",
       "id": "Plugin gatsby-plugin-postcss-sass",
       "name": "gatsby-plugin-postcss-sass",
-      "version": "1.0.16",
+      "version": "1.0.22",
       "pluginOptions": {
         "plugins": [],
         "postCssPlugins": [
@@ -396,11 +457,13 @@
       "nodeAPIs": [
         "modifyWebpackConfig"
       ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
       "pluginFilepath": "/Users/maureenvogel/webprojects/token/node_modules/gatsby-plugin-postcss-sass",
       "packageJson": {
         "name": "gatsby-plugin-postcss-sass",
         "description": "Gatsby plugin to handle scss/sass files with integrated support for also processing with Postcss plugins",
-        "version": "1.0.16",
+        "version": "1.0.22",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -409,10 +472,7 @@
           "sass",
           "scss"
         ],
-        "author": {
-          "name": "Scotty Eckenthal",
-          "email": "scotty@meetfabric.com"
-        },
+        "author": "Scotty Eckenthal <scotty@meetfabric.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -420,12 +480,12 @@
             "version": "^6.26.0"
           },
           {
-            "name": "extract-text-webpack-plugin",
-            "version": "^1.0.1"
+            "name": "gatsby-1-config-css-modules",
+            "version": "^1.0.11"
           },
           {
-            "name": "gatsby-1-config-css-modules",
-            "version": "^1.0.8"
+            "name": "gatsby-1-config-extract-plugin",
+            "version": "^1.0.3"
           },
           {
             "name": "node-sass",
@@ -458,7 +518,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "54702d53c67be48f387f86bdeaf238c6",
+        "contentDigest": "77a063fd0879e9ea3b1200cb44ee7a70",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -467,7 +527,7 @@
       "resolve": "/Users/maureenvogel/webprojects/token/node_modules/gatsby-source-filesystem",
       "id": "Plugin gatsby-source-filesystem",
       "name": "gatsby-source-filesystem",
-      "version": "1.5.16",
+      "version": "1.5.39",
       "pluginOptions": {
         "plugins": [],
         "name": "data",
@@ -477,19 +537,18 @@
         "sourceNodes",
         "setFieldsOnGraphQLNodeType"
       ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
       "pluginFilepath": "/Users/maureenvogel/webprojects/token/node_modules/gatsby-source-filesystem",
       "packageJson": {
         "name": "gatsby-source-filesystem",
         "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
-        "version": "1.5.16",
+        "version": "1.5.39",
         "keywords": [
           "gatsby",
           "gatsby-plugin"
         ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -499,6 +558,10 @@
           {
             "name": "babel-runtime",
             "version": "^6.26.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
           },
           {
             "name": "bluebird",
@@ -543,14 +606,19 @@
             "version": "^5.0.5"
           }
         ],
-        "peerDependencies": [],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.250"
+          }
+        ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0cd6e9e3ef3211c92465e95cafbd3414",
+        "contentDigest": "26aa9c05f7c1389b3660a59d3caec0a4",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -559,27 +627,26 @@
       "resolve": "/Users/maureenvogel/webprojects/token/node_modules/gatsby-transformer-json",
       "id": "Plugin gatsby-transformer-json",
       "name": "gatsby-transformer-json",
-      "version": "1.0.14",
+      "version": "1.0.20",
       "pluginOptions": {
         "plugins": []
       },
       "nodeAPIs": [
         "onCreateNode"
       ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
       "pluginFilepath": "/Users/maureenvogel/webprojects/token/node_modules/gatsby-transformer-json",
       "packageJson": {
         "name": "gatsby-transformer-json",
         "description": "Gatsby transformer plugin for JSON files",
-        "version": "1.0.14",
+        "version": "1.0.20",
         "keywords": [
           "gatsby",
           "gatsby-plugin",
           "json"
         ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -608,7 +675,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "fadbd8062440dd93422e231a9cfcf7e0",
+        "contentDigest": "0d5371d0071073fc1751a2b6b3ff98d0",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -617,11 +684,13 @@
       "resolve": "/Users/maureenvogel/webprojects/token",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "7a247eaab17314c3249adfbbf610ea9f",
+      "version": "1dc3cc59bbadb37221bfafce99705704",
       "pluginOptions": {
         "plugins": []
       },
       "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
       "pluginFilepath": "/Users/maureenvogel/webprojects/token",
       "packageJson": {
         "name": "gatsby-react-boilerplate",
@@ -646,6 +715,10 @@
           {
             "name": "express",
             "version": "^4.16.2"
+          },
+          {
+            "name": "gatsby-plugin-favicon",
+            "version": "^2.1.1"
           },
           {
             "name": "helmet",
@@ -745,7 +818,86 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1b908fd4dd020adaa7192c3f87bb8c3a",
+        "contentDigest": "462bdd819d9bab8249a7d4737d3450d4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-page-creator": {
+      "resolve": "/Users/maureenvogel/webprojects/token/node_modules/gatsby-plugin-page-creator",
+      "id": "Plugin gatsby-plugin-page-creator",
+      "name": "gatsby-plugin-page-creator",
+      "version": "1.0.1",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/maureenvogel/webprojects/token/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/maureenvogel/webprojects/token/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "1.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b7f107aef493b24c7e04a3b205ed2c3c",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -758,12 +910,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-07-04T01:55:23.059Z",
+      "buildTime": "2018-07-04T03:26:12.295Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9cbee4350d7129dc7eb8f7678c1ec8c7",
+        "contentDigest": "779b400dc171475440f4189e561a7bee",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -773,8 +925,9 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "ffa57d796a784b1cf7fc8da73af4b653",
+        "contentDigest": "3187def0f0222599536ea96de218d427",
         "type": "Directory",
+        "description": "Directory \"src/data\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "data",
@@ -784,7 +937,7 @@
       "size": 102,
       "prettySize": "102 B",
       "modifiedTime": "2018-06-24T00:13:33.000Z",
-      "accessTime": "2018-07-04T01:55:25.000Z",
+      "accessTime": "2018-07-04T03:26:15.000Z",
       "changeTime": "2018-06-24T00:19:50.000Z",
       "birthTime": "2018-06-24T00:13:33.000Z",
       "root": "/",
@@ -802,11 +955,11 @@
       "blksize": 4096,
       "ino": 32313243,
       "blocks": 0,
-      "atimeMs": 1530669325000,
+      "atimeMs": 1530674775000,
       "mtimeMs": 1529799213000,
       "ctimeMs": 1529799590000,
       "birthtimeMs": 1529799213000,
-      "atime": "2018-07-04T01:55:25.000Z",
+      "atime": "2018-07-04T03:26:15.000Z",
       "mtime": "2018-06-24T00:13:33.000Z",
       "ctime": "2018-06-24T00:19:50.000Z",
       "birthtime": "2018-06-24T00:13:33.000Z"
@@ -821,6 +974,7 @@
         "contentDigest": "2482079eedc6729ec73017411af736e6",
         "mediaType": "application/json",
         "type": "File",
+        "description": "File \"src/data/data.json\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "data",
@@ -830,7 +984,7 @@
       "size": 858,
       "prettySize": "858 B",
       "modifiedTime": "2018-06-24T00:13:33.000Z",
-      "accessTime": "2018-06-24T00:19:50.000Z",
+      "accessTime": "2018-07-04T02:54:43.000Z",
       "changeTime": "2018-06-24T00:19:50.000Z",
       "birthTime": "2018-06-24T00:13:33.000Z",
       "root": "/",
@@ -839,7 +993,7 @@
       "ext": ".json",
       "name": "data",
       "relativeDirectory": "",
-      "dev": 16777217,
+      "dev": 16777218,
       "mode": 33188,
       "nlink": 1,
       "uid": 501,
@@ -848,11 +1002,11 @@
       "blksize": 4096,
       "ino": 32313244,
       "blocks": 8,
-      "atimeMs": 1529799590000,
+      "atimeMs": 1530672883000,
       "mtimeMs": 1529799213000,
       "ctimeMs": 1529799590000,
       "birthtimeMs": 1529799213000,
-      "atime": "2018-06-24T00:19:50.000Z",
+      "atime": "2018-07-04T02:54:43.000Z",
       "mtime": "2018-06-24T00:13:33.000Z",
       "ctime": "2018-06-24T00:19:50.000Z",
       "birthtime": "2018-06-24T00:13:33.000Z"
@@ -909,32 +1063,29 @@
       "component": "/Users/maureenvogel/webprojects/token/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "updatedAt": 1530669326168,
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
       "componentPath": "/Users/maureenvogel/webprojects/token/src/pages/index.js",
       "id": "SitePage /",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "60d408ef1546ba424d919c21414b1dcb",
+        "contentDigest": "909cdb6e2ea6b0dbf35cbe2847406303",
+        "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "32f35c992092e34171c0740b55d0e9aa"
+    "PLUGINS_HASH": "9d4c1e78d90f626751df5518f2c252c1"
   },
   "componentDataDependencies": {
     "nodes": {},
     "connections": {
       "SitePage": [
         "/dev-404-page/"
-      ],
-      "DataJson": [
-        "/"
       ]
     }
   }

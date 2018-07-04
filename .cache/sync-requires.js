@@ -14,6 +14,5 @@ exports.components = {
 exports.json = {
   "layout-index.json": require("/Users/maureenvogel/webprojects/token/.cache/json/layout-index.json"),
   "dev-404-page.json": require("/Users/maureenvogel/webprojects/token/.cache/json/dev-404-page.json"),
-  "layout-index.json": require("/Users/maureenvogel/webprojects/token/.cache/json/layout-index.json"),
   "index.json": require("/Users/maureenvogel/webprojects/token/.cache/json/index.json")
 }
